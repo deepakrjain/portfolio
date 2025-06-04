@@ -1,5 +1,8 @@
 import {
   nmims,
+  rotaryClub,
+  infinix,
+  stuco,
   cluboard,
   cash_flow,
   gdsc,
@@ -750,84 +753,65 @@ export const stats = [
 export const extraCurricular = [
   {
     id: 1,
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
+    organisation: "Infinix AI & ML Club, NMIMS",
+    title: "Core Team",
+    duration: "Aug 2023 - May 2024",
     content: [
       {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
+        text: "Hosted and managed IdeaHub (an ideathon on UnStop) during Ignite 6.0, 2019, NMIMS’ annual tech fest.",
+        link: "https://www.linkedin.com/posts/deepakrjain_artificialintelligence-machinelearning-ugcPost-7094253187515228160-rNsw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD1yvC0B93MIkkZ3Hs2GyG2UtrCBFrC-RX8",
       },
       {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
+        text: "Organised a hands-on workshop on use of various Python libraries such as TensorFlow, Pandas, etc.",
       },
     ],
-    logo: devfolio,
+    logo: infinix,
   },
   {
     id: 2,
-    organisation: "Google Developer Student Club, NITK",
-    title: "Co-Chair",
-    duration: "December 2021 - Present",
+    organisation: "Rotary Club of Bhandup",
+    title: "Community Service",
+    duration: "Jun 2023 - Jul 2023",
     content: [
       {
-        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
-        link: "",
+        text: "Assisted in organizing a free cataract and blood sugar checkup camp, managed patient forms, and supported medical staff with technology use.",
+        link: "https://www.linkedin.com/posts/deepakrjain_communityservice-impactfulchange-rotaryimpact-activity-7097983421938872320-464-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD1yvC0B93MIkkZ3Hs2GyG2UtrCBFrC-RX8",
       },
       {
-        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
+        text: "Conducted a survey to identify underprivileged schools and areas for targeted resource allocation.",
+        link: "",
       },
     ],
-    logo: gdsc,
+    logo: rotaryClub,
   },
   {
     id: 3,
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
+    organisation: "Marketing Committee, NMIMS",
+    title: "Member",
+    duration: "Aug 2022 - May 2023",
     content: [
       {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
+        text: "Promoted events via social media and external marketing during Ignite 5.0 (NMIMS' flagship tech fest).",
         link: "",
       },
       {
-        text: "Won 7 inter-college solo dance competitions",
+        text: "Ensured active participation during workshops, seminars and fests.",
         link: "",
       },
     ],
-    logo: genesis,
+    logo: stuco,
   },
   {
     id: 4,
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
+    organisation: "NMIMS Navi Mumbai",
+    title: "Class Representative",
+    duration: "Feb 2024 - Dec 2024",
     content: [
       {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
+        text: "Managed a class of 60+ students for an academic year and coordinated with faculties for smooth conduct of the academics.",
       },
     ],
-    logo: iris,
-  },
-  {
-    id: 5,
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
-      },
-      {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
-        link: "",
-      },
-    ],
-    logo: ecell,
+    logo: nmims,
   },
 ];
 
@@ -864,8 +848,8 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Deepak Jain",
     githubUsername: 'deepakrjain',
-    tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
-    intro: "Full Stack Developer from Mumbai, India who is always building something or thinking about the next big idea."
+    tagLine: "Full Stack Developer | ex-Core @Infinix | HackX 2.0 '25",
+    intro: "Full Stack Developer from Thane, India who is always building something or thinking about the next big idea."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.

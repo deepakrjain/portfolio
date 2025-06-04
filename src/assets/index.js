@@ -16,6 +16,9 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import nmims from "./nmims.png";
+import rotaryClub from "./rotaryClub.png";
+import infinix from "./infinix.jpeg";
+import stuco from "./stuco.jpeg";
 import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
 import freadom from "./freadom.jpg";
@@ -66,6 +69,9 @@ export {
   linkedin,
   twitter,
   nmims,
+  rotaryClub,
+  infinix,
+  stuco,
   cluboard,
   cash_flow,
   freadom,
