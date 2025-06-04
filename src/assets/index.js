@@ -19,6 +19,7 @@ import nmims from "./nmims.png";
 import rotaryClub from "./rotaryClub.png";
 import infinix from "./infinix.jpeg";
 import stuco from "./stuco.jpeg";
+import projectDefault from "./projectDefault.png";
 import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
 import freadom from "./freadom.jpg";
@@ -72,6 +73,7 @@ export {
   rotaryClub,
   infinix,
   stuco,
+  projectDefault,
   cluboard,
   cash_flow,
   freadom,
