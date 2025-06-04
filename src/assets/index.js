@@ -1,5 +1,5 @@
 import deepakjain from "./deepak.png";
-import profilePic from "./profile-pic.jpg";
+import profilePic from "./profile-pic.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";

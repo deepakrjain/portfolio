@@ -61,7 +61,7 @@ const App = () => {
             >
               <div className={`${styles.boxWidth}`}>
                 <Projects />
-                <BlogPosts enabled={false} />
+                <BlogPosts enabled={true} />
                 <ExtraCurricular />
               </div>
             </div>

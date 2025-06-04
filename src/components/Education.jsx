@@ -30,7 +30,11 @@ const FeatureCard = ({
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
     >
-      <img src={icon} alt="icon" className="w-[80%] h-[80%] object-contain" />
+      <img
+        src={icon}
+        alt="icon"
+        className="w-full h-full object-cover rounded-full"
+      />
     </div>
     <div className="flex-1 flex flex-col ml-4">
       <h4 className="font-poppins font-semibold text-white text-[20px] leading-[30px] mb-1 text-gradient">
@@ -42,12 +46,12 @@ const FeatureCard = ({
       <p className="font-poppins font-normal text-dimWhite text-[14px] leading-[30px] mb-1">
         {duration}
       </p>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[30px] mb-1">   
-      ● {content1}
+      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[30px] mb-1">
+        ● {content1}
       </p>
       {content2 && (
-        <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[30px] mb-1">     
-      ● {content2}
+        <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[30px] mb-1">
+          ● {content2}
         </p>
       )}
     </div>
