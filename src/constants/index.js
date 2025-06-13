@@ -4,26 +4,8 @@ import {
   infinix,
   stuco,
   projectDefault,
-  cluboard,
-  cash_flow,
-  gdsc,
-  iris,
-  ecell,
-  genesis,
-  portfolio,
-  publiclab,
-  cdc,
-  chargeswap,
-  placeicon,
-  recruitment,
-  huntly,
-  comicify_ai,
-  greentrust,
-  devfolio,
   presidency,
   pace,
-  icon,
-  ethforall
 } from "../assets";
 
 import {
