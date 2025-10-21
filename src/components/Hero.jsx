@@ -4,7 +4,6 @@ import Lottie from "react-lottie-player";
 import animationData from "../lotties/person-coding.json";
 import { aboutMe } from "../constants";
 
-
 // lottie config
 const defaultOptions = {
   loop: true,

@@ -6,6 +6,7 @@ import {
   projectDefault,
   presidency,
   pace,
+  caradvice,
 } from "../assets";
 
 import {
@@ -606,6 +607,25 @@ export const stats = [
 export const extraCurricular = [
   {
     id: 1,
+    organisation: "CarAdvice.in",
+    title: "Automotive Content Writer",
+    duration: "July 2025 - Present",
+    content: [
+      {
+        text: "Write timely, well-researched articles on car launches, industry trends, and market insights for Indian readers.",
+        link: "https://www.caradvice.in/author/deepak/",
+      },
+      {
+        text: "Focus on creating accessible, neutral automotive content that engages and informs car buyers and enthusiasts.",
+      },
+      {
+        text: "Collaborate with the editorial team to ensure content meets quality standards and deadlines.",
+      },
+    ],
+    logo: caradvice,
+  },
+  {
+    id: 2,
     organisation: "Infinix AI & ML Club, NMIMS",
     title: "Core Team",
     duration: "Aug 2023 - May 2024",
@@ -621,7 +641,7 @@ export const extraCurricular = [
     logo: infinix,
   },
   {
-    id: 2,
+    id: 3,
     organisation: "Rotary Club of Bhandup",
     title: "Community Service",
     duration: "Jun 2023 - Jul 2023",
@@ -638,7 +658,7 @@ export const extraCurricular = [
     logo: rotaryClub,
   },
   {
-    id: 3,
+    id: 4,
     organisation: "Marketing Committee, NMIMS",
     title: "Member",
     duration: "Aug 2022 - May 2023",
@@ -655,7 +675,7 @@ export const extraCurricular = [
     logo: stuco,
   },
   {
-    id: 4,
+    id: 5,
     organisation: "NMIMS Navi Mumbai",
     title: "Class Representative",
     duration: "Feb 2024 - Dec 2024",
@@ -701,7 +721,7 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Deepak Jain",
     githubUsername: 'deepakrjain',
-    tagLine: "Full Stack Developer | ex-Core @Infinix | HackX 2.0 '25",
+    tagLine: "Full Stack Developer | Content Writer @ CarAdvice.in | Ex-Core @ Infinix =AI & ML Club",
     intro: "Full Stack Developer from Thane, India who is always building something or thinking about the next big idea."
 }
 
