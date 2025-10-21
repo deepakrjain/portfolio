@@ -63,11 +63,15 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1YfCTtYdLL_Laa4eRMK5FIf7kYm8MR-ps/view?usp=drive_link";
+export const resumeLink = "https://drive.google.com/file/d/1pcvypzeWT24N7ArHr_E_xuS_snUenVVM/view?usp=sharing";
 export const repoLink = "https://github.com/deepakrjain/portfolio";
 export const callToAction = "https://www.linkedin.com/in/deepakrjain";
 
 export const navLinks = [
+  {
+    id: "resume",
+    title: "Resume",
+  },
   {
     id: "skills",
     title: "Skills & Experience",
@@ -90,7 +94,7 @@ export const navLinks = [
   },
 ];
 
-// Add your past academic experiences here
+// academic experiences
 export const educationList = [
   {
     id: "education-1",
@@ -121,7 +125,7 @@ export const educationList = [
   },
 ];
 
-//skills - programming languages, frameworks etc.
+// skills - programming languages, frameworks etc.
 export const skills = [
   {
     title: "Programming Languages",
