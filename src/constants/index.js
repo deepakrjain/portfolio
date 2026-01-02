@@ -55,7 +55,10 @@ import {
   SiExpress,
   SiNodedotjs,
   SiFirebase,
-  SiHtml5
+  SiHtml5,
+  SiTensorflow,
+  SiOpencv,
+  SiFastapi
 } from "react-icons/si";
 
 import {
@@ -346,12 +349,12 @@ export const skills = [
 export const projects = [
   {
     id: "project-1",
-    title: "Jobify",
-    github: "https://github.com/deepakrjain/job-portal",
-    link: "https://github.com/deepakrjain/job-portal",
+    title: "SkillMaxxing: AI-Driven Adaptive Learning Platform",
+    github: "https://github.com/jxxt/SkillMaxxing",
+    link: "https://skillmaxxing.vercel.app",
     image: projectDefault,
     content:
-      "Job application and management portal for candidates.",
+      "AI-powered adaptive learning platform featuring Google Gemini-driven content generation, real-time proficiency assessment with dynamic difficulty adjustment, and personalized learning pathways with project-based reinforcement.",
     stack: [
       {
         id: "icon-1",
@@ -360,28 +363,49 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiFastapi,
+        name: "FastAPI"
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
+        icon: SiFirebase,
+        name: "Firebase"
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        icon: SiPython,
+        name: "Python"
       },
     ],
   },
   {
     id: "project-2",
+    title: "Real-Time Drowsiness Detection System",
+    github: "https://github.com/deepakrjain/drowsiness-detection-dl",
+    link: "https://github.com/deepakrjain/drowsiness-detection-dl",
+    image: projectDefault,
+    content:
+      "Real-time monitoring system combining ResNet50V2 deep learning with behavioral signals (EAR/MAR) for drowsiness detection, featuring professional UI with live metrics visualization.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-2",
+        icon: SiTensorflow,
+        name: "TensorFlow"
+      },
+      {
+        id: "icon-3",
+        icon: SiOpencv,
+        name: "OpenCV"
+      },
+    ],
+  },
+  {
+    id: "project-3",
     title: "QuizSphere",
     github: "https://github.com/deepakrjain/QuizSphere",
     link: "https://github.com/deepakrjain/QuizSphere",
@@ -422,7 +446,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-4",
     title: "CarHub",
     github: "https://github.com/deepakrjain/CarHub_Website",
     link: "https://github.com/deepakrjain/CarHub_Website",
@@ -448,7 +472,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
+    id: "project-5",
     title: "ToDoVault",
     github: "https://github.com/deepakrjain/ToDoVault",
     link: "https://github.com/deepakrjain/ToDoVault",
@@ -474,7 +498,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-5",
+    id: "project-6",
     title: "WeatherNow",
     github: "https://github.com/deepakrjain/WeatherNow",
     link: "https://deepakrjain.github.io/WeatherNow/",
@@ -495,7 +519,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-6",
+    id: "project-7",
     title: "ScoreKeeper",
     github: "https://github.com/deepakrjain/Scorekeeper",
     link: "https://github.com/deepakrjain/Scorekeeper",

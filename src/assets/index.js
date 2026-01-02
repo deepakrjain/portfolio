@@ -24,6 +24,7 @@ import todo from "./todo.jpg";
 import portfolio from "./portfolio.jpg";
 import presidency from "./presidency.jpeg";
 import pace from "./pace.webp";
+import caradvice from "./caradvice.png";
 
 export {
   deepakjain,
@@ -51,5 +52,6 @@ export {
   todo,
   portfolio,
   presidency,
-  pace
+  pace,
+  caradvice
 };
