@@ -67,7 +67,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1pcvypzeWT24N7ArHr_E_xuS_snUenVVM/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/12WhOTdYUnO9AsF9_vUzTD4oxHI9yxBSW/view?usp=drive_link";
 export const repoLink = "https://github.com/deepakrjain/portfolio";
 export const callToAction = "https://www.linkedin.com/in/deepakrjain";
 
