@@ -7,6 +7,7 @@ import {
   presidency,
   pace,
   caradvice,
+  lupin,
 } from "../assets";
 
 import {
@@ -58,7 +59,10 @@ import {
   SiHtml5,
   SiTensorflow,
   SiOpencv,
-  SiFastapi
+  SiFastapi,
+  SiStreamlit,
+  SiDuckduckgo,
+  SiGoogle
 } from "react-icons/si";
 
 import {
@@ -67,7 +71,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/12WhOTdYUnO9AsF9_vUzTD4oxHI9yxBSW/view?usp=drive_link";
+export const resumeLink = "https://drive.google.com/file/d/1J6LBUdnm2I_4M4KJmU5VSETdqMAocb-6/view?usp=sharing";
 export const repoLink = "https://github.com/deepakrjain/portfolio";
 export const callToAction = "https://www.linkedin.com/in/deepakrjain";
 
@@ -239,114 +243,75 @@ export const skills = [
 ];
 
 //work experience here
-// export const experiences = [
-//   {
-//     organisation: "Oracle, India",
-//     logo: oracle,
-//     link: "https://www.oracle.com/in/",
-//     positions: [
-//       {
-//         title: "Member of Technical Staff - 1",
-//         duration: "Jul 2024 - Present",
-//         content: [
-//           {
-//             text: "Working in the DBaaS Control Plane team in the Database Unit.",
-//             link: "",
-//           },
-//         ],
-//       },
-//       {
-//         title: "Member of Technical Staff Intern",
-//         duration: "May 2023 - Jul 2023",
-//         content: [
-//           {
-//             text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-//             link: "",
-//           },
-//           {
-//             text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-//             link: ""
-//           }
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     organisation: "Averlon",
-//     logo: averlon,
-//     link: "https://averlon.ai/",
-//     positions: [
-//       {
-//         title: "Software Developer Intern",
-//         duration: "Sept 2023 - Feb 2024",
-//         content: [
-//           {
-//             text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-//             link: ""
-//           },
-//           {
-//             text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-//             link: ""
-//           }
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     organisation: "IRIS, NITK",
-//     logo: iris,
-//     link: "https://iris.nitk.ac.in/about_us",
-//     positions: [
-//       {
-//         title: "Tech Lead",
-//         duration: "Apr 2023 - Apr 2024",
-//         content: [
-//           {
-//             text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-//             link: "",
-//           },
-//           {
-//             text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-//             link: "",
-//           },
-//         ],
-//       },
-//       {
-//         title: "Web Lead",
-//         duration: "Apr 2022 - Present",
-//         content: [
-//           {
-//             text: "Managed a team of 6 student developers while also overlooking multiple modules.",
-//             link: "",
-//           },
-//         ],
-//       },
-//       {
-//         title: "Web Developer",
-//         duration: "Nov 2021 - Apr 2022",
-//         content: [
-//           {
-//             text: "Added Conditional Fields support to the Forms Module.",
-//             link: "",
-//           },
-//         ],
-//       },
-//       {
-//         title: "Web Developer Intern",
-//         duration: "Jun 2021 - Oct 2021",
-//         content: [
-//           {
-//             text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
-//             link: "",
-//           },
-//         ],
-//       },
-//     ],
-//   }
-// ];
+export const experiences = [
+  {
+    organisation: "Lupin Ltd.",
+    logo: lupin,
+    link: "https://www.lupin.com",
+    positions: [
+      {
+        title: "AI Engineering Intern — Gen AI Team",
+        duration: "Jan 2026 - May 2026",
+        content: [
+          {
+            text: "Contributed to the development and production deployment of Quality Document Co-Author (QDCA), an enterprise-grade Generative AI platform for automating pharmaceutical compliance documentation.",
+            link: "",
+          },
+          {
+            text: "Optimized a complex multi-document RAG system utilizing Elasticsearch hybrid search, Azure OpenAI GPT-4, and LangChain, significantly improving retrieval relevance and context assembly.",
+            link: "",
+          },
+          {
+            text: "Engineered robust prompt architectures with multi-layered constraint systems to enforce LLM determinism and output formatting consistency across various SOP features.",
+            link: "",
+          },
+          {
+            text: "Refactored backend utilities and multi-SOP retrieval pipelines, migrating LLM dependencies to deterministic regex patterns and resolving content attribution and deduplication bugs.",
+            link: "",
+          },
+          {
+            text: "Designed and implemented generic query handlers and concise process flow generators, enhancing user experience and reducing LLM processing overhead.",
+            link: "",
+          }
+        ],
+      },
+    ],
+  }
+];
 
 //information about projects
 export const projects = [
+  {
+    id: "project-0",
+    title: "Research Agent: Autonomous AI with Self-Evaluation",
+    github: "https://github.com/deepakrjain/research-agent-eval",
+    link: "https://research-agent-eval.streamlit.app",
+    image: projectDefault,
+    content:
+      "A fully autonomous, self-correcting AI research agent built in Python that manages state, decomposes queries, browses the internet, and synthesizes cited answers, featuring a complete LLM-as-a-Judge evaluation harness.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-2",
+        icon: SiStreamlit,
+        name: "Streamlit"
+      },
+      {
+        id: "icon-3",
+        icon: SiDuckduckgo,
+        name: "DuckDuckGo"
+      },
+      {
+        id: "icon-4",
+        icon: SiGoogle,
+        name: "Gemini API"
+      }
+    ],
+  },
   {
     id: "project-1",
     title: "SkillMaxxing: AI-Driven Adaptive Learning Platform",
@@ -743,10 +708,10 @@ export const socialMedia = [
 
 // Your professional summary
 export const aboutMe = {
-    name: "Deepak Jain",
-    githubUsername: 'deepakrjain',
-    tagLine: "Full Stack Developer | Content Writer @ CarAdvice.in | Ex-Core @ Infinix =AI & ML Club",
-    intro: "Full Stack Developer from Thane, India who is always building something or thinking about the next big idea."
+  name: "Deepak Jain",
+  githubUsername: 'deepakrjain',
+  tagLine: "Full Stack Developer | Content Writer @ CarAdvice.in | Ex-Core @ Infinix =AI & ML Club",
+  intro: "Full Stack Developer from Thane, India who is always building something or thinking about the next big idea."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
